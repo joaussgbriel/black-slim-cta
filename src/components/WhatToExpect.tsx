@@ -21,11 +21,11 @@ const WhatToExpect = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
           O QUE VOCÃŠ PODE ESPERAR<br />
-          NA BLACK DO EMAGRECIMENTO â€“ COMBO SLIM?
+          NA BLACK DO EMAGRECIMENTO â€“ COMBO DO EMAGRECIMENTO?
         </h2>
-
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          {cards.map((card) => (
+    {
+      number: "2",
+      text: "Uma oferta especial de Black Friday para o Combo do Emagrecimento, com 5 materiais completos para organizar sua alimentaÃ§Ã£o, facilitar suas escolhas no dia a dia e acelerar o seu emagrecimento, por um preÃ§o que nÃ£o vai se repetir.",       },
             <div
               key={card.number}
               className="bg-card p-8 rounded-xl shadow-lg border-2 border-primary/20 hover:border-primary/40 transition-all hover:shadow-xl"

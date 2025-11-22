@@ -43,7 +43,7 @@ const Hero = () => {
 
           <div className="relative">
             <div className="rounded-2xl overflow-hidden">
-              <img src={comboMockup} alt="Mockup Combo Slim - Produtos" className="w-full h-auto object-contain" />
+                <img src={comboMockup} alt="Mockup Combo do Emagrecimento - Produtos" className="w-full h-auto object-contain" />
             </div>
           </div>
         </div>
