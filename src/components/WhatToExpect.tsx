@@ -1,18 +1,18 @@
-import { Button } from "@/components/ui/button";
+﻿import { Button } from "@/components/ui/button";
 
 const WhatToExpect = () => {
   const cards = [
     {
       number: "1",
-      text: "Um GRUPO VIP no WhatsApp onde você vai receber conteúdos de aquecimento, lembretes importantes, orientações sobre rotina alimentar e todos os avisos da Black em primeira mão, direto comigo e com a equipe.",
+      text: "Um GRUPO VIP no WhatsApp onde vocÃª vai receber conteÃºdos de aquecimento, lembretes importantes, orientaÃ§Ãµes sobre rotina alimentar e todos os avisos da Black em primeira mÃ£o, direto comigo e com a equipe.",
     },
     {
       number: "2",
-      text: "Uma oferta especial de Black Friday para o Combo Slim, com 5 materiais completos para organizar sua alimentação, facilitar suas escolhas no dia a dia e acelerar o seu emagrecimento, por um preço que não vai se repetir.",
+      text: "Uma oferta especial de Black Friday para o Combo Slim, com 5 materiais completos para organizar sua alimentaÃ§Ã£o, facilitar suas escolhas no dia a dia e acelerar o seu emagrecimento, por um preÃ§o que nÃ£o vai se repetir.",
     },
     {
       number: "3",
-      text: "Uma oportunidade única para quem está cansada de começar e parar toda semana e quer virar o ano mais leve, com um plano claro para emagrecer e manter o peso, sem dietas malucas.",
+      text: "Uma oportunidade Ãºnica para quem estÃ¡ cansada de comeÃ§ar e parar toda semana e quer virar o ano mais leve, com um plano claro para emagrecer e manter o peso, sem dietas malucas.",
     },
   ];
 
@@ -20,8 +20,8 @@ const WhatToExpect = () => {
     <section className="py-16 md:py-24 px-4 bg-secondary">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
-          O QUE VOCÊ PODE ESPERAR<br />
-          NA BLACK DO EMAGRECIMENTO – COMBO SLIM?
+          O QUE VOCÃŠ PODE ESPERAR<br />
+          NA BLACK DO EMAGRECIMENTO â€“ COMBO SLIM?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -42,7 +42,7 @@ const WhatToExpect = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-8 py-6 shadow-lg hover:shadow-xl transition-all"
-            onClick={() => window.location.href = "#"}
+            onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
           >
             QUERO PARTICIPAR DO GRUPO VIP
           </Button>
@@ -53,3 +53,4 @@ const WhatToExpect = () => {
 };
 
 export default WhatToExpect;
+

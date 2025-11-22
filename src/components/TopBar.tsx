@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+﻿import { Button } from "@/components/ui/button";
 import CountdownTimer from "./CountdownTimer";
 
 const TopBar = () => {
@@ -7,7 +7,7 @@ const TopBar = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
         <div className="flex flex-col md:flex-row items-center gap-2 text-center md:text-left">
           <span className="font-semibold">
-            Últimos dias para entrar no Grupo VIP da Black do Emagrecimento.
+            Ãšltimos dias para entrar no Grupo VIP da Black do Emagrecimento.
           </span>
           <span className="hidden md:inline">Faltam apenas</span>
           <CountdownTimer />
@@ -15,7 +15,7 @@ const TopBar = () => {
         <Button 
           size="sm" 
           className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold whitespace-nowrap"
-          onClick={() => window.location.href = "#"}
+          onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
         >
           QUERO PARTICIPAR
         </Button>
@@ -25,3 +25,4 @@ const TopBar = () => {
 };
 
 export default TopBar;
+

@@ -36,7 +36,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <Button size="lg" className="w-full md:w-auto bg-primary text-white px-6 py-3" onClick={() => window.location.href = "#"}>
+            <Button size="lg" className="w-full md:w-auto bg-primary text-white px-6 py-3" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}>
               QUERO PARTICIPAR DO GRUPO VIP
             </Button>
           </div>
@@ -53,4 +53,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
