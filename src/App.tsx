@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import MetaPixel from "./components/MetaPixel";
 import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
@@ -14,6 +15,7 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
+        <MetaPixel />
       <Toaster />
       <Sonner />
       <BrowserRouter>
