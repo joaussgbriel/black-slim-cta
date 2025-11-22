@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
-            <img src={logo} alt="VC + MAGRA" className="h-32 md:h-40 w-auto" />
+            <img src={logo} alt="VC + MAGRA" className="h-16 md:h-20 w-auto" />
 
             <div className="flex flex-wrap gap-4 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
@@ -53,4 +53,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
