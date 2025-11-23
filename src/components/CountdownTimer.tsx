@@ -36,20 +36,20 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex gap-2 items-center justify-center text-sm font-medium">
-      <span className="bg-background/20 px-2 py-1 rounded">
+    <div className="flex gap-1.5 items-center justify-center text-xs font-medium">
+      <span className="bg-background/20 px-1.5 py-0.5 rounded text-foreground">
         {String(timeLeft.days).padStart(2, "0")}d
       </span>
-      <span>:</span>
-      <span className="bg-background/20 px-2 py-1 rounded">
+      <span className="text-foreground">:</span>
+      <span className="bg-background/20 px-1.5 py-0.5 rounded text-foreground">
         {String(timeLeft.hours).padStart(2, "0")}h
       </span>
-      <span>:</span>
-      <span className="bg-background/20 px-2 py-1 rounded">
+      <span className="text-foreground">:</span>
+      <span className="bg-background/20 px-1.5 py-0.5 rounded text-foreground">
         {String(timeLeft.minutes).padStart(2, "0")}m
       </span>
-      <span>:</span>
-      <span className="bg-background/20 px-2 py-1 rounded">
+      <span className="text-foreground">:</span>
+      <span className="bg-background/20 px-1.5 py-0.5 rounded text-foreground">
         {String(timeLeft.seconds).padStart(2, "0")}s
       </span>
     </div>

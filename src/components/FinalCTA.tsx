@@ -2,27 +2,27 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
-      <div className="container mx-auto max-w-3xl text-center space-y-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
+    <section className="py-12 md:py-20 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
+      <div className="container mx-auto max-w-3xl text-center space-y-6">
+        <h2 className="text-xl md:text-2xl font-bold text-foreground leading-tight">
           Entre para o Grupo VIP da Black do Emagrecimento e garanta acesso à oferta do Combo do Emagrecimento 
           antes de todo mundo.
         </h2>
 
-        <p className="text-lg text-foreground/80 leading-relaxed">
+        <p className="text-base text-foreground/80 leading-relaxed">
           A oferta da Black será enviada <strong className="text-primary">apenas para quem estiver no 
           Grupo VIP do WhatsApp</strong>. Não haverá repetição desse valor nem dos bônus.
         </p>
 
         <Button 
           size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-7 shadow-xl hover:shadow-2xl transition-all"
+          className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
           onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
         >
           ENTRAR NO GRUPO VIP AGORA
         </Button>
 
-        <p className="text-xs text-muted-foreground mt-8 max-w-2xl mx-auto">
+        <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
           Os resultados podem variar de pessoa para pessoa. Este material não substitui consulta 
           com profissional de saúde. Cada corpo responde de forma única ao processo de emagrecimento.
         </p>
