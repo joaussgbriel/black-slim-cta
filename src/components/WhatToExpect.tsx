@@ -31,7 +31,7 @@ const WhatToExpect = () => {
             className="w-full sm:w-auto bg-primary text-primary-foreground text-base"
             onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}
           >
-            QUERO PARTICIPAR DO GRUPO VIP
+            GARANTIR MINHA VAGA NO GRUPO VIP
           </Button>
         </div>
       </div>
