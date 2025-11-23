@@ -5,7 +5,7 @@ const FinalCTA = () => {
     <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
       <div className="container mx-auto max-w-3xl text-center space-y-8">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-           Entre para o Grupo VIP da Black do Emagrecimento e garanta acesso à oferta do Combo do Emagrecimento 
+          Entre para o Grupo VIP da Black do Emagrecimento e garanta acesso à oferta do Combo do Emagrecimento 
           antes de todo mundo.
         </h2>
 
@@ -17,7 +17,7 @@ const FinalCTA = () => {
         <Button 
           size="lg" 
           className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-7 shadow-xl hover:shadow-2xl transition-all"
-          onClick={() => window.location.href = "#"}
+          onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
         >
           ENTRAR NO GRUPO VIP AGORA
         </Button>
