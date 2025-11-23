@@ -72,7 +72,7 @@ const Combo = () => {
             <div className="pt-2">
               <Button 
                 size="lg" 
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base px-4"
                 onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
               >
                 GARANTIR MEU ACESSO AO COMBO

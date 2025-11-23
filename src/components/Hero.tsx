@@ -38,7 +38,7 @@ const Hero = () => {
 
             <Button 
               size="lg" 
-              className="w-full md:w-auto bg-primary text-white px-6 py-3 text-base md:text-lg"
+              className="w-full md:w-auto bg-primary text-white px-4 py-3 text-base md:text-lg"
               onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
             >
               QUERO PARTICIPAR DO GRUPO VIP
