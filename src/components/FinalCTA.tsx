@@ -14,13 +14,15 @@ const FinalCTA = () => {
           Grupo VIP do WhatsApp</strong>. Não haverá repetição desse valor nem dos bônus.
         </p>
 
-        <Button 
-          size="lg" 
-          className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
-          onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
-        >
-          ENTRAR NO GRUPO VIP AGORA
-        </Button>
+        <div className="pt-4">
+          <Button 
+            size="lg" 
+            className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
+          >
+            ENTRAR NO GRUPO VIP AGORA
+          </Button>
+        </div>
 
         <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
           Os resultados podem variar de pessoa para pessoa. Este material não substitui consulta 
