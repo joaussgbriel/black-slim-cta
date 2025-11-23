@@ -21,7 +21,7 @@ const NoNeedToWait = () => {
               mas querem recuperar a leveza no corpo e na mente.
             </p>
             <p>
-              Tudo isso para que você comece a ver resultado de forma prática,{" "}
+              Tudo isso para que você comece a ver resultado de forma prática,{" }
               <strong>investindo apenas uma fração do seu tempo e do seu dinheiro</strong>, e transformando 
               de vez a forma como você cuida da sua alimentação, da sua saúde e de você mesma.
             </p>

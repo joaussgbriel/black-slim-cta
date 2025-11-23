@@ -1,4 +1,4 @@
-﻿import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Calendar, Gem } from "lucide-react";
 import logo from "@/assets/logo.png";
 import comboMockup from "@/assets/combo-mockup.png";
@@ -53,5 +53,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-

@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import comboMockup from "@/assets/combo-mockup.png";
 
-const Combo = () => {
+const ComboSlim = () => {
   const materials = [
     {
-      title: "Organização Emagrecedora",
+      title: "Organização Emagrecedora – Slim",
       description: "Guia para organizar sua rotina alimentar, montar sua estrutura e parar de depender do improviso.",
     },
     {
@@ -34,7 +34,7 @@ const Combo = () => {
             O COMBO MAIS COMPLETO PARA SEU EMAGRECIMENTO
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            COMBO DO EMAGRECIMENTO
+            COMBO DO EMAGRECIMENTO – SLIM
           </h2>
           <p className="text-foreground/80 max-w-2xl mx-auto">
             5 materiais completos para emagrecer com organização e sem efeito sanfona
@@ -85,4 +85,4 @@ const Combo = () => {
   );
 };
 
-export default Combo;
+export default ComboSlim;
