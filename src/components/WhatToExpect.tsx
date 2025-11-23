@@ -31,7 +31,7 @@ const WhatToExpect = () => {
             className="w-full sm:w-auto bg-primary text-primary-foreground text-base px-6 py-6"
             onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}
           >
-            GARANTIR MINHA VAGA NO GRUPO VIP
+            GARANTIR MINHA VAGA AGORA
           </Button>
         </div>
       </div>
