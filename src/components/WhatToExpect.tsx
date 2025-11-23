@@ -25,10 +25,10 @@ const WhatToExpect = () => {
           ))}
         </div>
 
-        <div className="text-center px-4">
+        <div className="text-center">
           <Button 
             size="lg" 
-            className="w-full sm:w-auto bg-primary text-primary-foreground text-base px-4 py-6"
+            className="w-full sm:w-auto bg-primary text-primary-foreground text-base px-6 py-6"
             onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}
           >
             GARANTIR MINHA VAGA NO GRUPO VIP
