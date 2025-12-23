@@ -5,12 +5,9 @@ const TopBar = () => {
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
         <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
           <span className="font-semibold text-sm">
-            Últimos dias para entrar no Grupo VIP do Combo do Emagrecimento.
+            Seu desconto acaba em:
           </span>
-          <div className="flex items-center gap-2">
-            <span className="hidden sm:inline">Faltam apenas</span>
-            <CountdownTimer />
-          </div>
+          <CountdownTimer />
         </div>
         <Button size="sm" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold whitespace-nowrap px-3 text-sm" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}>
           ​GARANTIR DESCONTO 
