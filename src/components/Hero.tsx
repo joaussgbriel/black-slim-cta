@@ -2,14 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Gem } from "lucide-react";
 import logo from "@/assets/combo-logo.png";
 import comboMockup from "@/assets/combo-mockup.png";
-
 const Hero = () => {
-  return (
-    <section className="py-8 md:py-16 px-4">
+  return <section className="py-8 md:py-16 px-4">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
-            <img src={logo} alt="Combo do Emagrecimento" className="h-24 md:h-32 w-auto mx-auto md:mx-0" />
+            <img alt="Combo do Emagrecimento" className="h-24 md:h-32 w-auto mx-auto md:mx-0" src="/lovable-uploads/4bcf4989-0d5d-499a-85c5-6c58dbcfe30c.png" />
 
             <div className="flex flex-wrap gap-3 text-xs md:text-sm justify-center md:justify-start">
               <div className="flex items-center gap-1.5 text-muted-foreground bg-background/50 px-3 py-1.5 rounded-full">
@@ -36,28 +34,18 @@ const Hero = () => {
               </p>
             </div>
 
-            <Button 
-              size="lg" 
-              className="w-full md:w-auto bg-primary text-white px-4 py-3 text-base md:text-lg"
-              onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2","_blank")}
-            >
+            <Button size="lg" className="w-full md:w-auto bg-primary text-white px-4 py-3 text-base md:text-lg" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}>
               QUERO PARTICIPAR DO GRUPO VIP
             </Button>
           </div>
 
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img 
-                src={comboMockup} 
-                alt="Mockup Combo do Emagrecimento - Produtos" 
-                className="w-full h-auto object-contain max-w-xs mx-auto md:max-w-none"
-              />
+              <img src={comboMockup} alt="Mockup Combo do Emagrecimento - Produtos" className="w-full h-auto object-contain max-w-xs mx-auto md:max-w-none" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
