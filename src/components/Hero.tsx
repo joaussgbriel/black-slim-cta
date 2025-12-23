@@ -26,7 +26,7 @@ emagrecer com leveza e sem efeito sanfona.<span className="text-primary block mt
 
             <div className="space-y-4 text-foreground/80 leading-relaxed text-center md:text-left">
               <p className="text-sm md:text-base">
-                Participe do nosso <strong className="text-primary">Grupo VIP no WhatsApp</strong> para entrar na oferta especial do combo com <strong>5 materiais completos</strong> que ajudam na rotina alimentar.
+                Clique no botão abaixo    <strong className="text-primary">nos próximos 15 minutos. </strong> com desconto exclusivo    <strong>5 materiais completos</strong> Não perca a oportunidade   
               </p>
               <p className="text-sm md:text-base">
                 Pensado para <strong>mulheres de 30 a 55 anos</strong> que vivem na correria.
