@@ -1,11 +1,10 @@
 const NoNeedToWait = () => {
-  return (
-    <section className="py-12 md:py-20 px-4">
+  return <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <h2 className="text-2xl md:text-4xl font-bold text-foreground leading-tight text-center md:text-left">
-              VOCÊ NÃO PRECISA ESPERAR JANEIRO
+              VOCÊ NÃO PRECISA ESPERAR O MÊS QUE VEM   
               <span className="text-primary block mt-2">PARA DECIDIR PELO SEU EMAGRECIMENTO</span> 🚀
             </h2>
           </div>
@@ -28,8 +27,6 @@ const NoNeedToWait = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default NoNeedToWait;
