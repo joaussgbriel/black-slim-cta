@@ -5,7 +5,7 @@ const FinalCTA = () => {
     <section className="py-12 md:py-20 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
       <div className="container mx-auto max-w-3xl text-center space-y-6">
         <h2 className="text-xl md:text-2xl font-bold text-foreground leading-tight">
-          Entre para o Grupo VIP da Black do Emagrecimento e garanta acesso à oferta do Combo do Emagrecimento 
+          Entre para o Grupo VIP do Combo do Emagrecimento e garanta acesso à oferta 
           antes de todo mundo.
         </h2>
 

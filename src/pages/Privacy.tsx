@@ -6,7 +6,7 @@ const Privacy = () => {
         Esta é uma página de exemplo para a Política de Privacidade. Aqui você pode
         descrever como os dados dos usuários são coletados, usados e protegidos.
       </p>
-      <p className="mt-6 text-sm text-foreground/70">&copy; {new Date().getFullYear()} Black do Emagrecimento</p>
+      <p className="mt-6 text-sm text-foreground/70">&copy; {new Date().getFullYear()} Combo do Emagrecimento</p>
     </main>
   );
 };

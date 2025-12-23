@@ -13,7 +13,7 @@ const WhatToExpect = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-foreground">
           O QUE VOCÊ PODE ESPERAR
           <br />
-          NA BLACK DO EMAGRECIMENTO
+          NO COMBO DO EMAGRECIMENTO
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
