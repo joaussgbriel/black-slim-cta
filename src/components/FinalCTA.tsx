@@ -7,8 +7,7 @@ const FinalCTA = () => {
         </h2>
 
         <p className="text-base text-foreground/80 leading-relaxed">
-          A oferta da Black será enviada <strong className="text-primary">apenas para quem estiver no 
-          Grupo VIP do WhatsApp</strong>. Não haverá repetição desse valor nem dos bônus.
+          Oferta exclusiva   <strong className="text-primary">apenas para os 100 primeiros compradores.    </strong>. Não haverá repetição desse valor nem dos bônus.
         </p>
 
         <div className="pt-4">
