@@ -6,7 +6,7 @@ const Terms = () => {
         Esta é uma página de exemplo para os Termos de Uso. Aqui você pode descrever
         regras, responsabilidades e condições de uso do serviço.
       </p>
-      <p className="mt-6 text-sm text-foreground/70">&copy; {new Date().getFullYear()} Black do Emagrecimento</p>
+      <p className="mt-6 text-sm text-foreground/70">&copy; {new Date().getFullYear()} Combo do Emagrecimento</p>
     </main>
   );
 };

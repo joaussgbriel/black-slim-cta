@@ -7,7 +7,7 @@ const TopBar = () => {
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
         <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
           <span className="font-semibold text-sm">
-            Últimos dias para entrar no Grupo VIP da Black do Emagrecimento.
+            Últimos dias para entrar no Grupo VIP do Combo do Emagrecimento.
           </span>
           <div className="flex items-center gap-2">
             <span className="hidden sm:inline">Faltam apenas</span>

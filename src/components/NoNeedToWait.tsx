@@ -12,7 +12,7 @@ const NoNeedToWait = () => {
 
           <div className="space-y-4 text-foreground/80 leading-relaxed">
             <p className="text-sm md:text-base">
-              Nessa Black do Emagrecimento você terá a oportunidade real de organizar sua rotina 
+              Nesse Combo do Emagrecimento você terá a oportunidade real de organizar sua rotina 
               alimentar, sair do improviso e parar de depender de dietas malucas que só trazem frustração.
             </p>
             <p className="text-sm md:text-base">
