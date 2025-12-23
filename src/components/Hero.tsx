@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Gem } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/combo-logo.png";
 import comboMockup from "@/assets/combo-mockup.png";
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
-            <img src={logo} alt="VC + MAGRA" className="h-24 md:h-32 w-auto mx-auto md:mx-0" />
+            <img src={logo} alt="Combo do Emagrecimento" className="h-24 md:h-32 w-auto mx-auto md:mx-0" />
 
             <div className="flex flex-wrap gap-3 text-xs md:text-sm justify-center md:justify-start">
               <div className="flex items-center gap-1.5 text-muted-foreground bg-background/50 px-3 py-1.5 rounded-full">
