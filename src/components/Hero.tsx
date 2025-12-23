@@ -9,16 +9,7 @@ const Hero = () => {
           <div className="space-y-6">
             <img alt="Combo do Emagrecimento" className="h-24 md:h-32 w-auto mx-auto md:mx-0" src="/lovable-uploads/4bcf4989-0d5d-499a-85c5-6c58dbcfe30c.png" />
 
-            <div className="flex flex-wrap gap-3 text-xs md:text-sm justify-center md:justify-start">
-              <div className="flex items-center gap-1.5 text-muted-foreground bg-background/50 px-3 py-1.5 rounded-full">
-                <Calendar className="w-3.5 h-3.5 text-primary" />
-                <span className="font-medium">28 de Novembro</span>
-              </div>
-              <div className="flex items-center gap-1.5 text-muted-foreground bg-background/50 px-3 py-1.5 rounded-full">
-                <Gem className="w-3.5 h-3.5 text-accent" />
-                <span className="font-medium">Evento exclusivo para o Grupo VIP</span>
-              </div>
-            </div>
+            
 
             <h1 className="text-2xl md:text-4xl font-bold text-foreground leading-tight text-center md:text-left">O combo mais desejado para quem quer
 emagrecer com leveza e sem efeito sanfona.<span className="text-primary block mt-1">emagrecer com leveza e sem efeito sanfona.</span>
