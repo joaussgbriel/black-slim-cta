@@ -11,7 +11,7 @@ const FinalCTA = () => {
         </p>
 
         <div className="pt-4">
-          <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-4 py-6 shadow-xl hover:shadow-2xl transition-all" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}>
+          <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base px-4 py-6 shadow-xl hover:shadow-2xl transition-all" onClick={() => window.open("https://pay.hotmart.com/K103127855R", "_blank")}>
             GARANTIR COMBO
           </Button>
         </div>

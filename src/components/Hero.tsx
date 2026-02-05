@@ -24,7 +24,7 @@ emagrecer com leveza e sem efeito sanfona.<span className="text-primary block mt
               </p>
             </div>
 
-            <Button size="lg" className="w-full md:w-auto bg-primary text-white px-4 py-3 text-base md:text-lg" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}>
+            <Button size="lg" className="w-full md:w-auto bg-primary text-white px-4 py-3 text-base md:text-lg" onClick={() => window.open("https://pay.hotmart.com/K103127855R", "_blank")}>
               GARANTIR COMBO 
             </Button>
           </div>
