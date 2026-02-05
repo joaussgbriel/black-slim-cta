@@ -29,7 +29,7 @@ const WhatToExpect = () => {
           <Button 
             size="lg" 
             className="w-full sm:w-auto bg-primary text-primary-foreground text-base px-6 py-6"
-            onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}
+            onClick={() => window.open("https://pay.hotmart.com/K103127855R", "_blank")}
           >
             GARANTIR MINHA VAGA AGORA
           </Button>

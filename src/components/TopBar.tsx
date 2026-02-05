@@ -9,7 +9,7 @@ const TopBar = () => {
           </span>
           <CountdownTimer />
         </div>
-        <Button size="sm" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold whitespace-nowrap px-3 text-sm" onClick={() => window.open("https://chat.whatsapp.com/Fiet7pYEksmGStoV5AdlzQ?mode=hqrt2", "_blank")}>
+        <Button size="sm" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold whitespace-nowrap px-3 text-sm" onClick={() => window.open("https://pay.hotmart.com/K103127855R", "_blank")}>
           ​GARANTIR DESCONTO 
         </Button>
       </div>
