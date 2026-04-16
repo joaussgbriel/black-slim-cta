@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const WhatToExpect = () => {
   const cards = [
     { number: "1", text: "Emagrecimento fácil com alimentos acessíveis" },
-    { number: "2", text: "Oferta especial do Combo do Emagrecimento." },
+    { number: "2", text: "Passo a passo completo para chegar no seu peso desejado" },
     { number: "3", text: "Plano para começar e manter o emagrecimento." },
   ];
 
