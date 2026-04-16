@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatToExpect = () => {
   const cards = [
-    { number: "1", text: "Grupo VIP no WhatsApp com conteúdos e avisos." },
+    { number: "1", text: "Emagrecimento fácil com alimentos acessíveis" },
     { number: "2", text: "Oferta especial do Combo do Emagrecimento." },
     { number: "3", text: "Plano para começar e manter o emagrecimento." },
   ];
