@@ -11,8 +11,8 @@ const Hero = () => {
 
             
 
-            <h1 className="text-2xl md:text-4xl font-bold text-foreground leading-tight text-center md:text-left">O combo mais desejado para quem quer
-emagrecer com leveza e sem efeito sanfona.<span className="text-primary block mt-1">emagrecer com leveza e sem efeito sanfona.</span>
+            <h1 className="text-2xl md:text-4xl font-bold text-foreground leading-tight text-center md:text-left">
+              O combo mais desejado para quem quer emagrecer com leveza e sem efeito sanfona.
             </h1>
 
             <div className="space-y-4 text-foreground/80 leading-relaxed text-center md:text-left">
